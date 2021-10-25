@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<define>
+    <title>CWRs diseños</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</define>
+<style>
+    .header1 {
+        background-color: Dodgerblue;
+        color: black;
+        padding: 20px;
+        text-align:center
+    }
+
+    body,
+    h1 {
+        font-family: "Montserrat", sans-serif
+    }
+
+    img {
+        margin-bottom: -7px
+    }
+</style>
+<body>
+    
+    <!-- Sidebar -->
+
+    <nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()"
+            class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="w3-bar-block w3-center">
+            <a href="Home.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
+            <a href="About.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Acerca de</a>
+            <a href="Proyectos.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Proyectos</a>
+            <a href="Contact.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contacto</a>
+        </div>
+    </nav>
+
+    <!-- !PAGE CONTENT! -->
+
+    <div class="w3-content" style="max-width:1500px">
+
+        <!-- Header -->
+
+        <div class="w3-opacity">
+            <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+            <div class="w3-clear"></div>
+        </div>
+
+        <header class="w3-center">
+            <img src="logo.jpg" alt="CWRs Logo" style="width:200px;height:200px;">
+            <div class="w3-opacity"> 
+                <p style="font-size:30px;"><b>Una empresa dedicada al diseño 2D y 3D</b></p>
+            </div>      
+        </header>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="w3-container w3-center w3-hover-blue-gray w3-opacity w3-xlarge">
+        <div class="w3-row">
+            <div class="w3-half">
+                <h1 style="font-size:30px;">Nuestras redes sociales</h1>
+                <a href="https://www.linkedin.com/in/tob%C3%ADas-rodriguez-3b9205188/" class="fa fa-linkedin w3-hover-opacity fa-lg"></a>
+                <a href="https://instagram.com/cwrsdisenos?utm_medium=copy_link" class="fa fa-instagram w3-hover-opacity fa-lg"></a>    
+            </div>
+            <div class="w3-half">
+                <h1 style="font-size:30px;">Contacto</h1>
+                <p style="font-size:20px;">Telefono: 02320-15510231 <br> Mail: cwrscomercial@gmail.com</p>
+            </div>
+        </footer>
+        <script>
+        // Open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.width = "100%";
+            document.getElementById("mySidebar").style.display = "block";
+            }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+
+</body>
