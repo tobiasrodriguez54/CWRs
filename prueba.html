@@ -1,3 +1,45 @@
+<!DOCTYPE html>
+<html>
+<define>
+    <title>CWRs diseños</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</define>
+<style>
+    .header1 {
+        background-color: Dodgerblue;
+        color: black;
+        padding: 20px;
+        text-align:center
+    }
+
+    body,
+    h1 {
+        font-family: "Montserrat", sans-serif
+    }
+
+    img {
+        margin-bottom: -7px
+    }
+</style>
+
+<script>
+    // Open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.width = "100%";
+        document.getElementById("mySidebar").style.display = "block";
+        }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+</script>
+
 <model-viewer bounds="tight" src="eeee.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1">
 
 </model-viewer>
