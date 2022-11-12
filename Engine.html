@@ -63,64 +63,24 @@
             </div>      
         </header>
     </div>
+    <cdiv class="w3-container">
+        <div class="w3-row">
+            <div class="w3-third ">
+              <img title='Velador' src="biela ensamble.JPG" alt="Velador1" style="width:100%">
+            </div>
+            <div class="w3-third ">
+              <img title='Velador' src="box ensamblado 2.JPG" alt="Velador1" style="width:100%">
+            </div>
+            <div class="w3-third ">
+              <img title='Velador' src="Box ensamble1.JPG" alt="Velador1" style="width:100%">
+            </div>
+        </div>
+    </cdiv>
 
-        <!-- Album -->
-
-        <div class="w3-container w3-center">
-            <h1>Proyectos CWRs</h1>
-        </div>
-        
-        <div class="w3-row-padding w3-margin-top">
-            <div class="w3-third">
-            <div class="w3-card">
-                <a href="Velador.html"><img title='Velador' src="Velador1.JPG" alt="Velador1" style="width:100%"></a>
-            </div>
-            </div>
-        
-            <div class="w3-third">
-            <div class="w3-card">
-                <a href="Engine.html"><img title='Engine' src="box ensamblado 2.JPG" alt="Engine" style="width:100%"></a>
-            </div>
-            </div>
-        
-            <div class="w3-third">
-            <div class="w3-card">
-                <img src="img_vernazza.jpg" style="width:100%">
-                <div class="w3-container">
-                <h5>Vernazza</h5>
-                </div>
-            </div>
-            </div>
-        </div>
-        
-        <div class="w3-row-padding w3-margin-top">
-            <div class="w3-third">
-            <div class="w3-card">
-                <img src="img_manarola.jpg" style="width:100%">
-                <div class="w3-container">
-                <h5>Manarola</h5>
-                </div>
-            </div>
-            </div>
-        
-            <div class="w3-third">
-            <div class="w3-card">
-                <img src="img_corniglia.jpg" style="width:100%">
-                <div class="w3-container">
-                <h5>Corniglia</h5>
-                </div>
-            </div>
-            </div>
-        
-            <div class="w3-third">
-            <div class="w3-card">
-                <img src="img_riomaggiore.jpg" style="width:100%">
-                <div class="w3-container">
-                <h5>Riomaggiore</h5>
-                </div>
-            </div>
-            </div>
-        </div>
+    <div>
+        <model-viewer style="width:100%;height: 500px;"src="jj.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1"camera-orbit="139.8deg 72.69deg auto">
+        </model-viewer>
+    </div>
 
     <!-- Footer -->
 
@@ -147,5 +107,6 @@
             document.getElementById("mySidebar").style.display = "none";
             }
         </script>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 </body>
